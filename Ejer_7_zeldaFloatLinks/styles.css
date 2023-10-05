@@ -1,0 +1,73 @@
+/* Set the background image */
+body {
+  background-image: url("images/back.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-position: center;
+}
+
+/* Styles for the header */
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 3vh;
+  margin: -8px;
+  padding: 5px;
+}
+
+/* Styles for the container group*/
+.container-group {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 100px;
+  overflow: auto;
+}
+
+/* Styles for the containers */
+.container {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 40px;
+  width: 150px;
+  border-radius: 50px;
+  text-align: center;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  float: left;
+  margin-right: 20px;
+}
+
+/* Styles for the images */
+.container img {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+/* Styles for links */
+.container h2 {
+  color: white;
+  transition: color 0.3s;
+}
+.container:hover h2 {
+  color: blue;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
