@@ -49,9 +49,8 @@ section {
 
 /* Navigation menu styles */
 nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
   padding: 15px;
 }
 
@@ -83,41 +82,34 @@ nav {
 
 /* Main article styles */
 article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  padding: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* Container for cards */
 .card-container {
   display: flex;
-  justify-content: space-between;
-  margin-right: 20px;
-}
-
-/* Row for arranging cards */
-.row {
-  display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 /* Card styles */
 .card {
-  flex: 1;
+  flex: 0 1 calc(25% - 20px); /* Ancho del 25% con margen de 10px en ambos lados */
   min-height: 180px;
-  max-width: calc(50% - 20px);
   font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
   box-shadow: lightgray 1.2px 1.2px;
   border-left: 0.5px solid rgb(244, 243, 243);
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image inside the card */
+.card img {
+  max-width: 100%;
+  height: auto; 
 }
 
 /* Card footer styles */
@@ -128,11 +120,11 @@ article {
   flex-direction: column;
   align-items: flex-start;
 }
-
 .card-footer p {
   margin: 0;
   font-size: 15px;
   padding: 5px 10px;
+  margin-top: 10px;
 }
 
 .card-footer a {
@@ -147,12 +139,12 @@ article {
 footer {
   background-color: white;
   color: black;
-  padding: 50px;
   border-bottom: 0.5px solid #eae9e9;
 }
 
 footer h1 {
   font-style: italic;
   color: gray;
-  margin-left: -20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
