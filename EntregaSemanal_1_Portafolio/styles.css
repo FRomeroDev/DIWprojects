@@ -49,8 +49,6 @@ section {
 
 /* Navigation menu styles */
 nav {
-  display: flex;
-  flex-wrap: wrap;
   padding: 15px;
 }
 
@@ -59,7 +57,7 @@ nav {
   color: black;
   border-bottom: 0.5px solid #eae9e9;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .nav-link-group {
@@ -69,14 +67,14 @@ nav {
 
 .nav-link {
   flex: 1;
-  min-width: 250px;
+  min-width: 280px;
   height: 60px;
   background-color: rgb(231, 231, 231);
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 20px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -109,7 +107,7 @@ article {
 /* Image inside the card */
 .card img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 /* Card footer styles */
