@@ -1,0 +1,99 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 1px solid black;
+    margin: 100px;
+}
+
+/* Estilos para el div1 */
+.div1 {
+    grid-area: 1 / 1 / 2 / 2; /* Ocupa desde la fila 1 hasta la fila 2 y desde la columna 1 hasta la columna 2 en la cuadrícula */
+    background-color: orange; /* Fondo en color naranja */
+    padding: 50px; /* Relleno alrededor del contenido */
+}
+
+/* Estilos para el div2 */
+.div2 {
+    grid-area: 1 / 2 / 2 / 4; /* Ocupa desde la fila 1 hasta la fila 2 y desde la columna 2 hasta la columna 4 en la cuadrícula */
+    background-color: rgb(148, 192, 26); /* Fondo en color verde definido por RGB */
+}
+
+/* Estilos para el div3 */
+.div3 {
+    grid-area: 2 / 1 / 3 / 2; /* Ocupa desde la fila 2 hasta la fila 3 y desde la columna 1 hasta la columna 2 en la cuadrícula */
+    background-color: orange; /* Fondo en color naranja */
+}
+
+/* Estilos para el div4 */
+.div4 {
+    grid-area: 2 / 1 / 3 / 3; /* Ocupa desde la fila 2 hasta la fila 3 y desde la columna 1 hasta la columna 3 en la cuadrícula */
+    background-color: orange; /* Fondo en color naranja */
+}
+
+/* Estilos para el div5 */
+.div5 {
+    grid-area: 2 / 3 / 3 / 4; /* Ocupa desde la fila 2 hasta la fila 3 y desde la columna 3 hasta la columna 4 en la cuadrícula */
+    background-color: rgb(148, 192, 26); /* Fondo en color verde definido por RGB */
+}
+
+/* Estilos para el div6 */
+.div6 {
+    grid-area: 3 / 1 / 4 / 2; /* Ocupa desde la fila 3 hasta la fila 4 y desde la columna 1 hasta la columna 2 en la cuadrícula */
+    background-color: lavender; /* Fondo en color lavanda */
+}
+
+/* Estilos para el div7 */
+.div7 {
+    grid-area: 3 / 1 / 4 / 4; /* Ocupa desde la fila 3 hasta la fila 4 y desde la columna 1 hasta la columna 4 en la cuadrícula */
+    background-color: red; /* Fondo en color rojo */
+}
+
+/* Estilos para el div8 */
+.div8 {
+    grid-area: 4 / 1 / 5 / 2; /* Ocupa desde la fila 4 hasta la fila 5 y desde la columna 1 hasta la columna 2 en la cuadrícula */
+    background-color: green; /* Fondo en color verde */
+}
+
+/* Estilos para el div9 */
+.div9 {
+    grid-area: 5 / 1 / 6 / 2; /* Ocupa desde la fila 5 hasta la fila 6 y desde la columna 1 hasta la columna 2 en la cuadrícula */
+    background-color: green; /* Fondo en color verde */
+}
+
+/* Estilos para el div10 */
+.div10 {
+    grid-area: 4 / 2 / 6 / 3; /* Ocupa desde la fila 4 hasta la fila 6 y desde la columna 2 hasta la columna 3 en la cuadrícula */
+    background-color: red; /* Fondo en color rojo */
+}
+
+/* Estilos para el div11 */
+.div11 {
+    grid-area: 4 / 3 / 5 / 4; /* Ocupa desde la fila 4 hasta la fila 5 y desde la columna 3 hasta la columna 4 en la cuadrícula */
+    background-color: green; /* Fondo en color verde */
+}
+
+/* Estilos para el div12 */
+.div12 {
+    grid-area: 5 / 3 / 6 / 4; /* Ocupa desde la fila 5 hasta la fila 6 y desde la columna 3 hasta la columna 4 en la cuadrícula */
+    background-color: green; /* Fondo en color verde */
+}
+
+/* Estilos para el div13 */
+.div13 {
+    grid-area: 6 / 1 / 7 / 2; /* Ocupa desde la fila 6 hasta la fila 7 y desde la columna 1 hasta la columna 2 en la cuadrícula */
+    background-color: green; /* Fondo en color verde */
+}
+
+/* Estilos para el div14 */
+.div14 {
+    grid-area: 6 / 1 / 7 / 4; /* Ocupa desde la fila 6 hasta la fila 7 y desde la columna 1 hasta la columna 4 en la cuadrícula */
+    background-color: rgb(1, 78, 126); /* Fondo en color azul definido por RGB */
+}
