@@ -1,0 +1,109 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 1px solid black;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    grid-template-areas:
+    "naranja1 verde1 verde1"
+    "naranja2 naranja2 verde2"
+    "rojo1 rojo1 rojo1"
+    "verdito1 rojo2 verdito3"
+    "verdito1 rojo2 verdito3"
+    "azul1 azul1 azul1";
+}
+
+/* Estilos para el div1 */
+.div1 {
+    grid-area: naranja1;
+    background-color: orange;
+    padding: 50px;
+}
+
+/* Estilos para el div2 */
+.div2 {
+    grid-area: verde1;
+    background-color: rgb(148, 192, 26);
+}
+
+/* Estilos para el div3 */
+.div3 {
+    grid-area: naranja2;
+    background-color: orange;
+}
+
+/* Estilos para el div4 */
+.div4 {
+    grid-area: naranja2;
+    background-color: orange;
+}
+
+/* Estilos para el div5 */
+.div5 {
+    grid-area: verde2;
+    background-color: rgb(148, 192, 26);
+}
+
+/* Estilos para el div6 */
+.div6 {
+    grid-area: main4;
+    background-color: lavender;
+}
+
+/* Estilos para el div7 */
+.div7 {
+    grid-area: rojo1;
+    background-color: red;
+}
+
+/* Estilos para el div8 */
+.div8 {
+    grid-area: verdito1;
+    background-color: green;
+}
+
+/* Estilos para el div9 */
+.div9 {
+    grid-area: verdito2;
+    background-color: green;
+}
+
+/* Estilos para el div10 */
+.div10 {
+    grid-area: rojo2;
+    background-color: red;
+}
+
+/* Estilos para el div11 */
+.div11 {
+    grid-area: verdito3;
+    background-color: green;
+}
+
+/* Estilos para el div12 */
+.div12 {
+    grid-area: verdito3;
+    background-color: green;
+}
+
+/* Estilos para el div13 */
+.div13 {
+    grid-area: verdito3;
+    background-color: green;
+}
+
+/* Estilos para el div14 */
+.div14 {
+    grid-area: azul1;
+    background-color: rgb(1, 78, 126);
+}
